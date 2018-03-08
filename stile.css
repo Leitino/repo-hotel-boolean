@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
 }
 body{
   width: 100%;
@@ -161,5 +162,15 @@ footer .fa:hover{
   .menu{
     font-size: 18px;
   }
-
+  .filter{
+    font-size: 15px;
+  }
+  .container-testo p{
+    font-size: 20px;
+  }
+  .contatti, .social, .indirizzo{
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
 }
