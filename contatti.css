@@ -1,0 +1,177 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif
+}
+.p-laterale-15 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.m-top{
+  margin-top: 10px;
+}
+.text-center{
+  text-align: center;
+}
+.col-12 .fa{
+  padding: 10px;
+  font-size: 80px;
+  transition: 1s;
+}
+.col-12 .fa:hover{
+  color:#d6c481;
+}
+body{
+  width: 100%;
+  height: 100%;
+  background-color: #ECFAFB;
+}
+header{
+  font-size: 1.3em;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: : 0;
+  width: 100%;
+  min-height: 50px;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+.menu{
+  text-align: center;
+  display: flex;
+}
+.menu a{
+  padding: 10px;
+}
+a{
+  text-decoration: none;
+  color: white;
+  transition: 1s;
+}
+a:hover{
+  color:#d6c481;
+}
+.sfondo-img{
+  width: 100%;
+  min-height: 300px;
+  background-image: url(http://www.abcdesk.net/wp-content/uploads/2018/02/cute-modern-reception-desk-wallpaper-superb-modern-reception-desk-construction.jpg);
+  background-size: cover;
+  background-position: left;
+  color: #d6c481;
+}
+.filter{
+  width: 100%;
+  min-height: 300px;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sfondo-testo{
+  border-radius: 5px;
+  font-size: 1.5em;
+  width: 500px;
+  text-align: center;
+  transition: 3s;
+}
+.sfondo-testo:hover{
+  background-color: rgba(0, 0, 0, 0.6);
+}
+footer{
+  color:white;
+  font-weight: bold;
+  width: 100%;
+  height: 100px;
+  background-color: #4aa6b5;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .fa{
+  font-size: 1.5em;
+  padding: 10px;
+  transition: 1s;
+}
+footer .fa:hover{
+  color:#d6c481;
+}
+
+/*media queries*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Layout 12 colonne*/
+
+.col-1{
+  width: calc(100% / 12);
+}
+.col-2{
+  width: calc((100% / 12)*2);
+}
+.col-3{
+  padding: 10px;
+  width: calc((100% / 12)*3);
+}
+.col-4{
+  width: calc((100% / 12)*4);
+}
+.col-5{
+  width: calc((100% / 12)*5);
+}
+.col-6{
+  width: calc((100% / 12)*6);
+}
+.col-7{
+  width: calc((100% / 12)*7);
+}
+.col-8{
+  width: calc((100% / 12)*8);
+}
+.col-9{
+  width: calc((100% / 12)*9);
+}
+.col-10{
+  width: calc((100% / 12)*10);
+}
+.col-11{
+  width: calc((100% / 12)*11);
+}
+.col-12{
+  width: 100%;
+}
+[class^="col-"]{
+  float: left;
+}
+
+
+@media screen and (max-width:800px) {
+  .col-4{
+    width: 100%;
+  }
+}
