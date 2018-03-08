@@ -165,10 +165,10 @@ footer .fa:hover{
     height: 150px;
     width: 100%;
   }
-  .menu{
-    font-size: 18px;
+  header{
+    font-size: 11px;
   }
   .filter{
-    font-size: 10px;
+    font-size: 13px;
   }
 }
