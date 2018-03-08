@@ -42,7 +42,7 @@ a:hover{
   color: #d6c481;
 }
 .filter{
-  width: 100vw;
+  width: 100%;
   min-height: 400px;
   background-color: rgba(0, 0, 0, 0.3);
   display: flex;
