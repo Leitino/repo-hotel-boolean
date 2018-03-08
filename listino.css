@@ -1,0 +1,164 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 100%;
+  height: 100%;
+  background-color: #ECFAFB;
+}
+.flex{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+header{
+  font-size: 1.3em;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: : 0;
+  width: 100%;
+  min-height: 50px;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+.menu{
+  text-align: center;
+  display: flex;
+}
+.menu a{
+  padding: 10px;
+}
+a{
+  text-decoration: none;
+  color: white;
+  transition: 1s;
+}
+a:hover{
+  color:#d6c481;
+}
+.sfondo-img{
+  width: 100%;
+  min-height: 300px;
+  background-image: url(https://i.pinimg.com/originals/ba/3d/c2/ba3dc27f3dc708939872561d9e3c6cac.jpg);
+  background-size: cover;
+  background-position: left;
+  color: #d6c481;
+}
+.filter{
+  width: 100%;
+  min-height: 300px;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sfondo-testo{
+  border-radius: 5px;
+  font-size: 1.5em;
+  width: 500px;
+  text-align: center;
+  transition: 3s;
+}
+.sfondo-testo:hover{
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.margin{
+  width: 90%;
+  margin: auto;
+}
+.bg-azzurrino{
+  background-color: #ECFAFB;
+}
+.bg-marroncino{
+  background-color: #D6C481;
+}
+.center{
+  text-align: center;
+}
+.m-top{
+  margin-top: 10px;
+}
+.blocco{
+  min-height: 500px;
+  padding-bottom: 200px;
+
+}
+footer{
+  color:white;
+  font-weight: bold;
+  width: 100%;
+  height: 100px;
+  background-color: #4aa6b5;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .fa{
+  font-size: 1.5em;
+  padding: 10px;
+  transition: 1s;
+}
+footer .fa:hover{
+  color:#d6c481;
+}
+/*Layout 12 colonne*/
+
+.col-1{
+  width: calc(100% / 12);
+}
+.col-2{
+  width: calc((100% / 12)*2);
+}
+.col-3{
+  width: calc((100% / 12)*3);
+}
+.col-4{
+  width: calc((100% / 12)*4);
+}
+.col-5{
+  width: calc((100% / 12)*5);
+}
+.col-6{
+  padding: 10px;
+  width: calc((100% / 12)*6);
+  border-bottom: 1px solid black
+}
+.col-7{
+  width: calc((100% / 12)*7);
+}
+.col-8{
+  width: calc((100% / 12)*8);
+}
+.col-9{
+  width: calc((100% / 12)*9);
+}
+.col-10{
+  width: calc((100% / 12)*10);
+}
+.col-11{
+  width: calc((100% / 12)*11);
+}
+.col-12{
+  width: 100%;
+}
+[class^="col-"]{
+  float: left;
+}
+
+/*media queries*/
+
+@media screen and (max-width:900px) {
+  .col-6{
+    width: 100%;
+  }
+  .hidden-border{
+    border: none
+  }
+
+}
