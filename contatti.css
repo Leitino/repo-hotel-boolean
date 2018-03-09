@@ -104,33 +104,7 @@ footer .fa:hover{
   color:#d6c481;
 }
 
-/*media queries*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Layout 12 colonne*/
-
 .col-1{
   width: calc(100% / 12);
 }
