@@ -41,6 +41,9 @@ header{
   justify-content: space-between;
   flex-flow: row wrap;
 }
+.lingue img{
+  width: 50px;
+}
 .menu{
   text-align: center;
   display: flex;
