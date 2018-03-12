@@ -3,6 +3,8 @@
   <head>
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400i" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="prenotazione.css">
     <meta charset="utf-8">
     <title>Prenotazione camere</title>
@@ -32,7 +34,75 @@
         </div>
       </div>
     </div>
-    <form class="" action="index.html" method="post">
+    <!--NUOVO FORM BY SAMUEL POMA  -->
+    <div class="row-booking_form">
+      <form class="form-horizontal col-md-12" action="/action_page.php">
+        <h1>Modulo prenotazioni</h1>
+       <div class="col-md-offset-1">
+        <div class="form-group">
+          <div class="col-sm-10">
+            <label for="name">Nome</label>
+            <input type="text" class="form-control" id="name">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-10">
+            <label for="surname">Cognome</label>
+            <input type="text" class="form-control" id="surname">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-10">
+            <label for="email">Inserisci mail:</label>
+            <input type="email" class="form-control" id="email">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-10">
+            <label for="pwd">Inserisci password:</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+          </div>
+        </div>
+        <div class="check-board">
+          <span class="radio-inline"><input type="radio" name="optradio">HALF BOARD</span>
+          <span class="radio-inline"><input type="radio" name="optradio">FULL BOARD</span>
+        </div>
+        <div class="form-group">
+          <label for="data" class="ml-2">Arrivo/Partenza</label>
+          <div class="col-sm-10">
+            <input type="date"class="form-control" id="data">
+          </div>
+          <div class="col-sm-10">
+            <input type="date"class="form-control" id="data">
+          </div>
+        </div>
+        <div class="form-group number-form">
+          <label for="sel1" class="ml-2">Numero Adulti</label>
+          <select class="form-control number" id="sel1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+          </select>
+        </div>
+        <div class="form-group number-form">
+          <label for="sel1" class="ml-2">Numero Bambini</label>
+          <select class="form-control number" id="sel1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="comment" class="ml-2">Comment:</label>
+          <textarea class="form-control" rows="5" id="comment"></textarea>
+        </div>
+     </div>
+   </div>
+  </form>
+</div>
+    <!-- <form class="" action="index.html" method="post">
       <div class="margin">
         <h2>modulo pronotazione</h2>
         <input type="text" name="" value=""placeholder="inserisci il tuo cognome">
@@ -50,7 +120,7 @@
         <input type="date" name="" value=""required>
         <input type="text" name="" value=""placeholder="Note aggiuntive">
       </div>
-    </form>
+    </form>  -->
     <footer>
       <div class="contatti">
         <a href="contatti.html">CONTATTI</a>
