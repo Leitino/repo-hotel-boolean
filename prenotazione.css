@@ -68,25 +68,6 @@ a:hover{
 .sfondo-testo:hover{
   background-color: rgba(0, 0, 0, 0.6);
 }
-<<<<<<< HEAD
-form{
-  margin-top: 10px;
-  height: 100%;
-}
-form input{
-  text-align: center;
-  font-weight: 300;
-  width: 100%;
-  margin-top: 10px;
-  padding: 10px;
-  border-radius: 3px;
-  border: 1px solid lightgray;
-}
-.margin{
-  text-align: center;
-
-=======
-
 /* NUOVO FORM BY SAMUEL POMA  */
 .form-horizontal{
   border: 30px solid #4aa6b5;
@@ -137,7 +118,6 @@ form h1{
 
 .margin{
   text-align: center;
->>>>>>> New Form for Ale Leita
   width: 60%;
   margin: auto;
   background-color: #4aa6b5;
@@ -148,13 +128,10 @@ form h1{
 .margin h3, label{
   padding: 10px;
 }
-<<<<<<< HEAD
-=======
 
 .ml-2{
   margin-left: 2%;
 }
->>>>>>> New Form for Ale Leita
 footer{
   color:white;
   font-weight: bold;
@@ -195,8 +172,6 @@ footer .fa:hover{
     display: block;
   }
 }
-<<<<<<< HEAD
-=======
 
 @media screen and (max-width: 600px) {
   #comment{
@@ -207,4 +182,3 @@ footer .fa:hover{
   }
 
   }
->>>>>>> New Form for Ale Leita
